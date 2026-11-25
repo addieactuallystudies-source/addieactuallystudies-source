@@ -1,0 +1,207 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="800" height="360"
+     viewBox="0 0 800 360">
+
+    <defs>
+        <linearGradient id="night" x2="0" y2="1">
+            <stop stop-color="#100D12"/>
+            <stop offset="100%" stop-color="#241322"/>
+        </linearGradient>
+    </defs>
+
+    <!-- Midnight sky -->
+    <rect width="800" height="360"
+          rx="18" fill="url(#night)"/>
+
+    <!-- Crescent moon -->
+    <circle cx="690" cy="50" r="25" fill="#E8D1A7"/>
+    <circle cx="702" cy="42" r="23" fill="#160F19"/>
+
+    <!-- Garden lawn -->
+    <rect x="40" y="110" width="720" height="220"
+          rx="20" fill="#14251D" stroke="#C5A572"/>
+
+    <rect x="48" y="118" width="704" height="204"
+          rx="15" fill="#21372E"/>
+
+    <!-- Stone pathways -->
+    <path d="M400 322 V118 M50 220 H750"
+          stroke="#80766B" stroke-width="42"/>
+
+    <!-- Flower beds -->
+    <g fill="#362522" stroke="#8B7154">
+        <rect x="85" y="148" width="250" height="50" rx="9"/>
+        <rect x="465" y="148" width="250" height="50" rx="9"/>
+        <rect x="85" y="253" width="250" height="50" rx="9"/>
+        <rect x="465" y="253" width="250" height="50" rx="9"/>
+    </g>
+
+    <!-- Fountain base -->
+    <ellipse cx="400" cy="222" rx="55" ry="36"
+             fill="#B6A38B"/>
+
+    <!-- Fountain water -->
+    <ellipse cx="400" cy="216" rx="47" ry="27"
+             fill="#315A60"/>
+
+    <!-- Water ripples -->
+    <ellipse cx="400" cy="216" rx="30" ry="15"
+             fill="none" stroke="#80B5B1" stroke-width="2"/>
+
+    <!-- Fountain pillar -->
+    <rect x="395" y="180" width="10" height="37"
+          fill="#A89C89"/>
+
+    <ellipse cx="400" cy="180" rx="20" ry="7"
+             fill="#C9B9A0"/>
+
+    <!-- Flowing water -->
+    <path d="M400 177 Q380 143 370 202
+             M400 177 Q420 143 430 202"
+          fill="none" stroke="#90C5C6" stroke-width="2"/>
+
+<!-- Royal garden fence -->
+<defs>
+    <pattern id="fence" width="30" height="40"
+             patternUnits="userSpaceOnUse">
+        <rect x="12" y="5" width="6" height="35"
+              fill="#7B6956"/>
+        <path d="M9 8 L15 0 L21 8 Z"
+              fill="#C5A572"/>
+        <path d="M0 15 H30 M0 30 H30"
+              stroke="#A38A68" stroke-width="3"/>
+    </pattern>
+</defs>
+
+<rect x="50" y="85" width="700" height="40"
+      fill="url(#fence)"/>
+
+<!-- Golden lanterns -->
+<defs>
+    <radialGradient id="glow">
+        <stop stop-color="#FFD88A" stop-opacity=".5"/>
+        <stop offset="100%" stop-color="#FFD88A"
+              stop-opacity="0"/>
+    </radialGradient>
+
+    <g id="lantern">
+        <circle cy="-25" r="45" fill="url(#glow)"/>
+        <rect x="-2" y="-10" width="4" height="40"
+              fill="#A38A68"/>
+        <rect x="-8" y="-40" width="16" height="28"
+              rx="2" fill="#E9BB68" stroke="#C5A572"/>
+        <path d="M-12 -40 L0 -50 L12 -40 Z"
+              fill="#C5A572"/>
+        <path d="M0 -40 V-12"
+              stroke="#8B6942" stroke-width="2"/>
+    </g>
+</defs>
+
+<use href="#lantern" x="65" y="180"/>
+<use href="#lantern" x="735" y="180"/>
+<use href="#lantern" x="65" y="290"/>
+<use href="#lantern" x="735" y="290"/>
+
+<!-- Contribution plant designs -->
+<defs>
+
+    <!-- Seedling -->
+    <g id="seedling">
+        <path d="M0 0 V-12"
+              stroke="#558361" stroke-width="3"/>
+        <ellipse cx="-5" cy="-9" rx="6" ry="3"
+                 fill="#46734D"/>
+        <ellipse cx="5" cy="-13" rx="6" ry="3"
+                 fill="#729B68"/>
+    </g>
+
+    <!-- Burgundy rose -->
+    <g id="rose">
+        <use href="#seedling"/>
+        <circle cy="-19" r="8" fill="#641E35"/>
+        <circle cx="-4" cy="-21" r="5" fill="#923D57"/>
+        <circle cx="4" cy="-21" r="5" fill="#822D4B"/>
+        <circle cy="-23" r="4" fill="#B95470"/>
+        <circle cy="-21" r="2" fill="#D4B483"/>
+    </g>
+
+    <!-- Rare golden flower -->
+    <g id="goldflower">
+        <use href="#seedling"/>
+        <g fill="#D4B483">
+            <circle cy="-25" r="5"/>
+            <circle cx="-6" cy="-19" r="5"/>
+            <circle cx="6" cy="-19" r="5"/>
+            <circle cy="-13" r="5"/>
+        </g>
+        <circle cy="-19" r="5" fill="#9E713C"/>
+        <circle cy="-20" r="2" fill="#F1E6D2"/>
+    </g>
+
+</defs>
+
+<!-- PLANTS_START -->
+<use href="#seedling" x="160" y="185"/>
+<use href="#rose" x="200" y="185"/>
+<use href="#goldflower" x="240" y="185"/>
+<use href="#seedling" x="280" y="185"/>
+<use href="#rose" x="500" y="185"/>
+<use href="#rose" x="580" y="185"/>
+<use href="#seedling" x="620" y="185"/>
+<use href="#goldflower" x="660" y="185"/>
+<use href="#rose" x="120" y="290"/>
+<use href="#seedling" x="160" y="290"/>
+<use href="#goldflower" x="240" y="290"/>
+<use href="#rose" x="280" y="290"/>
+<use href="#seedling" x="500" y="290"/>
+<use href="#rose" x="540" y="290"/>
+<use href="#goldflower" x="580" y="290"/>
+<use href="#rose" x="660" y="290"/>
+<!-- PLANTS_END -->
+
+<!-- Royal garden guardian -->
+<g transform="translate(435,282)">
+
+    <!-- Animated tail -->
+    <path d="M30 26 Q52 30 49 12"
+          stroke="#0B090D" stroke-width="7"
+          fill="none" stroke-linecap="round">
+        <animate attributeName="d"
+                 values="M30 26 Q52 30 49 12;
+                         M30 26 Q58 20 43 8;
+                         M30 26 Q52 30 49 12"
+                 dur="2s"
+                 repeatCount="indefinite"/>
+    </path>
+
+    <!-- Body and ears -->
+    <path d="M0 10 V-5 H7 L12 2 H23
+             L29 -5 H35 V17 H30 V29
+             H5 V17 H0 Z"
+          fill="#0B090D" stroke="#59434C"/>
+
+    <!-- Golden crown -->
+    <path d="M8 -2 L6 -14 L14 -8
+             L18 -17 L23 -8 L30 -14
+             L28 -2 Z"
+          fill="#D4B483"/>
+
+    <!-- Eyes -->
+    <g fill="#D4B483">
+        <rect x="8" y="9" width="4" height="3"/>
+        <rect x="23" y="9" width="4" height="3"/>
+
+        <animate attributeName="opacity"
+                 values="1;1;0;1;1"
+                 keyTimes="0;.88;.92;.96;1"
+                 dur="5s"
+                 repeatCount="indefinite"/>
+    </g>
+
+    <!-- Nose -->
+    <rect x="16" y="15" width="3" height="2"
+          fill="#A75B70"/>
+
+</g>
+
+</svg>

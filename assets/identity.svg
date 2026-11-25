@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="800"
+     height="85"
+     viewBox="0 0 800 85">
+
+<text x="400" y="25"
+      text-anchor="middle"
+      font-family="monospace"
+      font-size="18"
+      fill="#C5A572">
+    ~/addie/profile
+</text>
+<text x="400" y="57"
+      text-anchor="middle"
+      font-family="monospace"
+      font-size="16"
+      fill="#E8D1A7">
+    [ CSE '29 ] :: [ Security ] :: [ Design ]
+</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="800" height="65"
+     viewBox="0 0 800 65">
+
+    <line x1="20" y1="32" x2="195" y2="32"
+          stroke="#C5A572" stroke-width="1"/>
+
+    <text x="400" y="40"
+          text-anchor="middle"
+          font-family="Georgia, serif"
+          font-size="25"
+          letter-spacing="2"
+          fill="#E8D1A7">
+        ✧ The Enchanted Garden ✧
+    </text>
+
+    <line x1="605" y1="32" x2="780" y2="32"
+          stroke="#C5A572" stroke-width="1"/>
+</svg>

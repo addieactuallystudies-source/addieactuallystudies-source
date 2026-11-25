@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="800" height="65"
+     viewBox="0 0 800 65">
+
+    <line x1="20" y1="32" x2="260" y2="32"
+          stroke="#C5A572" stroke-width="1"/>
+
+    <text x="400" y="40"
+          text-anchor="middle"
+          font-family="Georgia, serif"
+          font-size="27"
+          letter-spacing="3"
+          fill="#E8D1A7">
+        ✧ About Me ✧
+    </text>
+
+    <line x1="540" y1="32" x2="780" y2="32"
+          stroke="#C5A572" stroke-width="1"/>
+
+</svg>
